@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.titolo{
+    color: turquoise;
+    padding: 10px;
+}
+
+.select_container {
+    text-align: center;
+    background-color: turquoise;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+}
+.select_container .icon_selector {
+    font-size: 15px;
+}
+
+.icon_container{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    background-color: lightgray;
+    align-content: flex-start;
+}
+.icona{
+    width: calc(100% / 5 - 120px);
+    height: 100px;
+    margin: 20px 60px;
+    text-align: center;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+}
+
+.icona i {
+    font-size: 40px;
+}
